@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YuJu - Cendol Suji Segar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5fff5;
+      color: #2e7d32;
+    }
+    header {
+      background-color: #a5d6a7;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #81c784;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .produk {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+    .item {
+      border: 2px solid #c8e6c9;
+      border-radius: 20px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      background-color: #ffffff;
+    }
+    .item h3 {
+      margin-top: 0;
+    }
+    footer {
+      background-color: #a5d6a7;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    h2 {
+      border-bottom: 2px solid #81c784;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YuJu</h1>
+    <p>Cendol Suji Segar dalam Botol</p>
+  </header>
+  <nav>
+    <a href="#produk">Produk</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#kontak">Kontak Kami</a>
+    <a href="#lokasi">Lokasi</a>
+  </nav>
+  
+  <section id="produk">
+    <h2>Produk Kami</h2>
+    <div class="produk">
+      <div class="item">
+        <h3>YuJu 250ml</h3>
+        <p>Botol pir, tutup putih</p>
+        <p><strong>Rp 10.000</strong></p>
+      </div>
+      <div class="item">
+        <h3>YuJu 200ml</h3>
+        <p>Botol pir, tutup putih</p>
+        <p><strong>Rp 5.000</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>YuJu adalah minuman cendol suji segar yang diproduksi dengan cinta dan perhatian oleh <strong>Yustina Isparwanti</strong>. Kami menggunakan bahan-bahan alami untuk menyajikan rasa khas dan menyegarkan.</p>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Hubungi kami di: <strong>+62 821-3635-1754</strong></p>
+  </section>
+
+  <section id="lokasi">
+    <h2>Lokasi</h2>
+    <p>Graha Flamboyan 10A, Mejing Wetan 01/07,<br>Ambarketawang, Gamping, Sleman,<br>Daerah Istimewa Yogyakarta</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YuJu. Semua hak dilindungi.</p>
+  </footer>
+</body>
+</html>
